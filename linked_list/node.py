@@ -17,4 +17,4 @@ class Node(object):
             return False
 
     def __repr__(self):
-        pass
+        return('{}'.format(self.elem))
